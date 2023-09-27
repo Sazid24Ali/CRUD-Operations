@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-mapping>
+    <class name="com.crud.Employee" table="hibernate_employee">
+        <id name="eid">
+            <generator class="assigned"></generator>
+        </id>
+        <property name="ename"></property>
+        <property name="age"></property>
+        <property name="salary"></property>
+    </class>
+</hibernate-mapping>
