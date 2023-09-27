@@ -153,7 +153,7 @@ public class App {
         // Populating  Sample Data
         populateData(session);
 
-        // Retriving THe Sample Data
+        // Retriving The Sample Data
         System.out.println("Printing the Present Data");
         printTable(session);
 
