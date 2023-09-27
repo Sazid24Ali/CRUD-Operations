@@ -169,7 +169,7 @@ public class App {
         //deleting THe Record 210 
         deleteRecord(session, 210);
 
-        // Closing THe Session And SessionFactory
+        // Closing The Session And SessionFactory
         session.close();
         sFactory.close();
     }
