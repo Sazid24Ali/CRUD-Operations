@@ -16,7 +16,8 @@
         <property name="hibernate.show_sql">true</property>
         <property name="hibernate.hbm2ddl.auto">create</property>
         
-        <mapping resource="mappingFiles\empMap.xml"/> 
+        <!-- <mapping resource="mappingFiles\empMap.xml"/> NOt using THis FIle-->
+        <mapping class="com.crud.Employee"/>
         
     </session-factory>
 </hibernate-configuration>

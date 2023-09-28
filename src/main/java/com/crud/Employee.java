@@ -1,6 +1,14 @@
 package com.crud;
 // Enitity class
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name = "hibernate_employee")
 public class Employee {
+    @Id
     private int eid;
     private String ename;
     private int age;
