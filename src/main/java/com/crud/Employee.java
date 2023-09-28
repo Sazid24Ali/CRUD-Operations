@@ -1,5 +1,5 @@
 package com.crud;
-
+// Enitity class
 public class Employee {
     private int eid;
     private String ename;
